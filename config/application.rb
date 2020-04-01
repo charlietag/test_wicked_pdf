@@ -15,5 +15,9 @@ module TestWickedPdf
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # grover - automatically gen pdf using /xxx.pdf
+    require 'grover'
+    config.middleware.use Grover::Middleware
   end
 end

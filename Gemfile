@@ -52,3 +52,21 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Dev tools
+gem 'pry-rails', :group => :development
+gem 'bullet', group: 'development'
+
+# Set Linux User ENV (instead of setting var in .bashrc)
+#Bad, it's not trigger before booting up, so won't work with grover (GROVER_NO_SANDBOX=true)
+#gem 'figaro'
+
+# Best choice for ENV['var']
+gem 'dotenv-rails'
+
+# wicked_pdf
+#gem 'wicked_pdf'
+#gem 'wkhtmltopdf-binary'
+
+# grover
+gem 'grover'

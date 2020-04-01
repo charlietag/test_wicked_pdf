@@ -1,0 +1,2 @@
+# gem figaro - not work with gem grover well
+GROVER_NO_SANDBOX: true
