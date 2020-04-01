@@ -17,5 +17,4 @@ Grover.configure do |config|
     launch_args: ['--font-render-hinting=medium'],
     wait_until: 'domcontentloaded' 
   }
-  #ENV["GROVER_NO_SANDBOX"] = true
 end
